@@ -1,0 +1,115 @@
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh; /* Faz com que a área ocupe toda a altura da tela */
+    
+}
+
+.inputs {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Maior espaçamento entre os elementos */
+}
+
+input {
+    border: 1px solid rgba(255, 255, 255, 0.4); /* Bordas mais suaves */
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparente, com toque de cor */
+    font-size: 20px;
+    padding: 15px; /* Mais espaço dentro do input */
+    color: azure;
+    width: 300px; /* Largura fixa para os inputs */
+    transition: 0.3s ease-in-out;
+}
+
+input:focus {
+    outline: none;
+    border-color: #fff; /* Bordas brancas ao focar */
+}
+
+button {
+    border: 1px solid rgba(255, 255, 255, 0.128); /* Bordas suaves */
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 18px;
+    padding: 12px 25px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Cor de fundo mais visível ao passar o mouse */
+    border-color: #fff;
+}
+
+.secao-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.secao-profile h3 {
+    color: aliceblue;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.secao-profile p, b {
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 7px;
+    width: 80%;
+    text-align: center;
+}
+
+.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-bottom: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.divisao {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h4 {
+    color: aliceblue;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px; /* Mais espaço entre as letras */
+}
+
+.escreve {
+    color: azure;
+    width: 300px;
+    padding: 15px;
+}
+
+.repositorios {
+    background-color:rgba(24, 24, 24, 1);
+
+}
+
+label{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}

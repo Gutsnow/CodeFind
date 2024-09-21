@@ -1,0 +1,45 @@
+.itemlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Espaçamento entre os itens */
+  }
+  
+  .itemlist strong {
+    color: #539bf5;
+    font-size: 24px;
+    margin-bottom: 8px; /* Espaçamento abaixo do título */
+    display: block; /* Garantindo que ocupe a largura toda */
+    text-align: center; /* Centralizando o texto */
+  }
+  
+  .itemlist p {
+    color: #999999;
+    margin: 0 25px 15px; /* Espaçamento nas laterais e abaixo */
+    text-align: center; /* Centralizando o texto */
+  }
+  
+  .divi {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Espaçamento acima */
+    width: 70%;
+  }
+  
+  .linke {
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px; /* Espaçamento acima dos links */
+  }
+  
+  .linke a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px 10px; /* Espaçamento interno do link */
+    transition: color 0.3s ease-in-out; /* Efeito de transição */
+  }
+  
+  .linke a:hover {
+    color: #539bf5; /* Cor azul ao passar o mouse */
+  }
+  
