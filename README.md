@@ -1,7 +1,7 @@
 
 # GitHub Explorer
 
-O **GitHub Explorer** é uma aplicação web que permite pesquisar usuários e repositórios do GitHub de forma simples e eficiente. Com uma interface intuitiva, é possível visualizar informações detalhadas sobre qualquer usuário GitHub, bem como seus repositórios públicos, estrelas, forks e outras estatísticas importantes.
+O **CodeFind** é uma aplicação web que permite pesquisar usuários e repositórios do GitHub de forma simples e eficiente. Com uma interface intuitiva, é possível visualizar informações detalhadas sobre qualquer usuário GitHub, bem como seus repositórios públicos.
 
 ## Funcionalidades
 
